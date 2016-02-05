@@ -44,6 +44,7 @@ public class RubikCubePlayer {
 
         boolean finished = false;
 
+
         while (!finished) {
             rubikCubePlayer.printRubikCube(rubikCube);
             Movement nextMovement = rubikCubePlayer.randomizeMovement();
