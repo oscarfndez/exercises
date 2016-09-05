@@ -4,7 +4,7 @@ public class Piano {
 
     public static boolean compute(GameContext gameContext) {
 
-        // This is a comment
+        // This is a comment 2
         if (gameContext.remainingNotes.length() > 0) {
 
             int whatToPlay = Character.getNumericValue(gameContext.remainingNotes.charAt(0));
